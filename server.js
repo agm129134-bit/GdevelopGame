@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 
 // 【修改這裡】改用動態 Port，如果 Render 雲端沒有指定，就預設使用你原本的 80
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 
 // 配合老師的設定，使用 body-parser 解析資料並加大接收容量限制
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }));
