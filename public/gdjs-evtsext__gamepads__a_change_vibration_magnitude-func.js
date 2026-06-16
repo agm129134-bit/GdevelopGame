@@ -9,7 +9,7 @@ gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude = {};
 gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude.userFunc0xb2be18 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude.userFunc0xa591b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const { clamp } = gdjs.evtTools.common;
 const playerId = eventsFunctionContext.getArgument("PlayerId") - 1;
@@ -43,7 +43,7 @@ gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude.userFunc0xb2be18(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude.userFunc0xa591b0(runtimeScene, eventsFunctionContext);
 
 }
 
