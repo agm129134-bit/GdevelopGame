@@ -9,7 +9,7 @@ gdjs.evtsExt__URLTools__RemoveURLQueryStringParameter = {};
 gdjs.evtsExt__URLTools__RemoveURLQueryStringParameter.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__URLTools__RemoveURLQueryStringParameter.userFunc0xb365b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__URLTools__RemoveURLQueryStringParameter.userFunc0x116f3f8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const url = new URL(eventsFunctionContext.getArgument("URL"));
 url.searchParams.delete(eventsFunctionContext.getArgument("param"));
@@ -21,7 +21,7 @@ gdjs.evtsExt__URLTools__RemoveURLQueryStringParameter.eventsList0 = function(run
 {
 
 
-gdjs.evtsExt__URLTools__RemoveURLQueryStringParameter.userFunc0xb365b0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__URLTools__RemoveURLQueryStringParameter.userFunc0x116f3f8(runtimeScene, eventsFunctionContext);
 
 }
 
