@@ -5,7 +5,9 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors());
-const port = 80;
+
+// 【修改這裡】改用動態 Port，如果 Render 雲端沒有指定，就預設使用你原本的 80
+const port = process.env.PORT || 80;
 
 // 配合老師的設定，使用 body-parser 解析資料並加大接收容量限制
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }));
@@ -101,5 +103,6 @@ app.delete('/api/deleteData/:playerName', async (req, res) => {
 
 // 啟動伺服器
 app.listen(port, () => {
-    console.log(`🚀 遊戲伺服器已啟動，正在監聽 http://localhost`);
+    // 【修改這裡】順便把 log 改成印出目前的變數 port，方便你檢查
+    console.log(`🚀 遊戲伺服器已啟動，正在監聽 Port: ${port}`);
 });
