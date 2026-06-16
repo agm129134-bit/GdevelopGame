@@ -1,0 +1,12 @@
+{
+  "name": "小朋友下樓梯",
+  "short_name": "小朋友下樓梯",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "any",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
